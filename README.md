@@ -2,7 +2,7 @@
 
 [Spring Boot JPA + H2 example: Build a CRUD Rest APIs]
 
-In this tutorial, we're gonna build a Spring Boot Rest CRUD API example with Maven that use Spring Data JPA to interact with H2 database. You'll know:
+In this tutorial, we're going build a Spring Boot Rest CRUD API example with Maven that use Spring Data JPA to interact with H2 database. Here we will write JUnit test cases too. You'll know:
 
 - How to configure Spring Data, JPA, Hibernate to work with Database
 - How to define Data Models and Repository interfaces
