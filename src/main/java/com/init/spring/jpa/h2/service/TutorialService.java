@@ -17,14 +17,14 @@ public class TutorialService {
     private TutorialRepository tutorialRepository;
 
 
-    public List<Tutorial> findAll(String title){
+    public List<Tutorial> findAll(String title) {
         List<Tutorial> tutorials = new ArrayList<Tutorial>();
 
-        if (title == null)
+        if (title == null) {
             tutorialRepository.findAll().forEach(tutorials::add);
-        else
+        } else {
             tutorialRepository.findByTitleContainingIgnoreCase(title).forEach(tutorials::add);
-
+        }
         return tutorials;
     }
 
@@ -40,11 +40,11 @@ public class TutorialService {
         tutorialRepository.deleteById(id);
     }
 
-    public void deleteAll(){
+    public void deleteAll() {
         tutorialRepository.deleteAll();
     }
 
     public List<Tutorial> findByPublished(boolean isPublished) {
-        return tutorialRepository.findByPublished(true);
+        return tutorialRepository.findByPublished(isPublished);
     }
 }
