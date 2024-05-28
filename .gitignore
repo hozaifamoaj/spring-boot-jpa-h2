@@ -32,7 +32,12 @@ build/
 ### VS Code ###
 .vscode/
 
+.mvn/wrapper
+
 ##DB related file ###
 testdb.mv.db
 testdb.trace.db
 .jpb
+mvnw.cmd
+mvnw
+.gitignore
