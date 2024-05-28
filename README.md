@@ -8,5 +8,6 @@ In this tutorial, we're gonna build a Spring Boot Rest CRUD API example with Mav
 - How to define Data Models and Repository interfaces
 - Way to create Spring Rest Controller to process HTTP requests
 - Way to use Spring Data JPA to interact with H2 Database
+- Added Unit test cases (JUnit, Mockito)
 
 
